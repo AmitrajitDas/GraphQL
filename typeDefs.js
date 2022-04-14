@@ -4,8 +4,9 @@ const typeDefs = gql`
   type Query {
     quote: String!
     age: Int!
-    isCool: Boolean
-    price: Float
+    isCool: Boolean!
+    price: Float!
+    assets: [String!]!
   }
 `
 

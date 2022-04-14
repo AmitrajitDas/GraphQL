@@ -4,6 +4,7 @@ const resolvers = {
     age: () => 21,
     isCool: () => true,
     price: () => 69.25,
+    assets: () => ['asset1', 'asset2'],
   },
 }
 
