@@ -1,6 +1,9 @@
 const resolvers = {
   Query: {
-    hello: () => 'Woorrrlldd!!',
+    quote: () => 'FFFFFF',
+    age: () => 21,
+    isCool: () => true,
+    price: () => 69.25,
   },
 }
 
